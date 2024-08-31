@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(230, 213, 190);
+    display: flex;
+    
+}
+
+.barra {
+    background-color: rgb(203, 54, 54);
+    color: aquamarine;
+    height: 80px;
+    width: 100%;
+    box-shadow: 0 4px 15px rgb(44, 42, 42);
+    border-radius: 20px;
+}
+
+#Buscar {
+    
+}
