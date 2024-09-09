@@ -7,8 +7,52 @@
 </head>
 <link rel="stylesheet" href="./index.css">
 <body>
-    <div class="barra">
-        <input type="text" placeholder="Buscar" id="Buscar">
-    </div>
+    <header>
+        <div class="banner">
+            <h1>U.T</h1>
+        </div>
+    
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="productos">
+            <div class="filtro">
+                <input type="text" placeholder="Buscar por nombre...">
+                <select name="categoria">
+                    <option value="">Todas las categorías</option>
+                    <option value="telefonos">Teléfonos</option>
+                    <option value="tablets">Tablets</option>
+                    <option value="accesorios">Accesorios</option>
+                </select>
+                <button>Filtrar</button>
+            </div>
+    
+            <div class="lista-productos">
+                <div class="producto">
+                    <img src="https://www.clevercel.co/cdn/shop/products/Samsung-galaxy-s20_9850512d-6d8c-4061-bb3c-f06053629a61.png?v=1621301844" alt="Producto 1">
+                    <h3>Iphone 15 verde (128GB)</h3>
+                    <p class="precio">$3'000.000</p>
+                    <a href="#">Ver detalles</a>
+                </div>
+                <div class="producto">
+                    <img src="https://itechcolombia.co/wp-content/uploads/2024/02/co-galaxy-s24-s928-sm-s928bzkiltc-539324987-scaled.webp" alt="Producto 2">
+                    <h3>Samsung Galaxy S24 Ultra (256GB)</h3>
+                    <p class="precio">$3'800.000</p>
+                    <a href="#">Ver detalles</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 UNE Telecomunicaciones. Todos los derechos reservados.</p>
+    </footer>
 </body>
 </html>

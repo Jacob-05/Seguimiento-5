@@ -1,18 +1,103 @@
 body {
-    background-color: rgb(230, 213, 190);
-    display: flex;
-    
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(46, 44, 44);
 }
 
-.barra {
-    background-color: rgb(203, 54, 54);
-    color: aquamarine;
-    height: 80px;
-    width: 100%;
-    box-shadow: 0 4px 15px rgb(44, 42, 42);
-    border-radius: 20px;
+header {
+    background-color: #fbfbfb;
+    padding: 10px;
+    text-align: center;
 }
 
-#Buscar {
-    
+header .banner img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ff6600;
+}
+
+
+.productos {
+    margin: 20px auto;
+    width: 80%;
+}
+
+.filtro {
+    margin-bottom: 20px;
+}
+
+.filtro input[type="text"],
+.filtro select,
+.filtro button {
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.lista-productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+}
+
+.producto {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+}
+
+.producto h3 {
+    margin: 10px 0;
+}
+
+.producto p {
+    font-weight: bold;
+}
+
+.producto a {
+    display: inline-block;
+    background-color: #000000;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.producto a:hover {
+    background-color: #196900;
+}
+
+h3 {
+    color: #fff;
+}
+
+.precio {
+    color: #fff;
 }
