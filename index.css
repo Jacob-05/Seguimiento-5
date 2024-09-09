@@ -35,7 +35,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ff6600;
+    color: #f30505;
 }
 
 
@@ -45,7 +45,7 @@ nav ul li a:hover {
 }
 
 .filtro {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .filtro input[type="text"],
@@ -53,18 +53,22 @@ nav ul li a:hover {
 .filtro button {
     margin-right: 10px;
     padding: 5px;
+    background-color: #f6f2f2fb;
+    color: #161515;
+    border-radius: 15px;
 }
 
 .lista-productos {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 20px;
+    grid-gap: 90px;
 }
 
 .producto {
     border: 1px solid #ccc;
     padding: 10px;
     text-align: center;
+    border-radius: 15px;
 }
 
 .producto img {
